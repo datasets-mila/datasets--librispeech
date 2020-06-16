@@ -1,0 +1,15 @@
+1485 extract/LibriSpeech/books
+1 extract/LibriSpeech/BOOKS.TXT
+1 extract/LibriSpeech/CHAPTERS.TXT
+2800 extract/LibriSpeech/dev-clean
+2955 extract/LibriSpeech/dev-other
+3761 extract/LibriSpeech/intro
+1 extract/LibriSpeech/LICENSE.TXT
+4 extract/LibriSpeech/raw_metadata
+1 extract/LibriSpeech/README.TXT
+1 extract/LibriSpeech/SPEAKERS.TXT
+2707 extract/LibriSpeech/test-clean
+3029 extract/LibriSpeech/test-other
+29124 extract/LibriSpeech/train-clean-100
+106111 extract/LibriSpeech/train-clean-360
+151472 extract/LibriSpeech/train-other-500
