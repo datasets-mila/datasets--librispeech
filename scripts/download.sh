@@ -2,6 +2,8 @@
 
 # This script is meant to be used with the command 'datalad run'
 
+wget http://www.openslr.org/resources/12/md5sum.txt
+
 for file_url in "http://www.openslr.org/resources/12/dev-clean.tar.gz dev-clean.tar.gz" \
                 "http://www.openslr.org/resources/12/dev-other.tar.gz dev-other.tar.gz" \
                 "http://www.openslr.org/resources/12/test-clean.tar.gz test-clean.tar.gz" \
@@ -12,8 +14,7 @@ for file_url in "http://www.openslr.org/resources/12/dev-clean.tar.gz dev-clean.
                 "http://www.openslr.org/resources/12/intro-disclaimers.tar.gz intro-disclaimers.tar.gz" \
                 "http://www.openslr.org/resources/12/original-mp3.tar.gz original-mp3.tar.gz" \
                 "http://www.openslr.org/resources/12/original-books.tar.gz original-books.tar.gz" \
-                "http://www.openslr.org/resources/12/raw-metadata.tar.gz raw-metadata.tar.gz" \
-                "http://www.openslr.org/resources/12/md5sum.txt md5sum.txt"
+                "http://www.openslr.org/resources/12/raw-metadata.tar.gz raw-metadata.tar.gz"
 do
         echo ${file_url} | git-annex addurl -c annex.largefiles=anything --raw --batch --with-files
 done
