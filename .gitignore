@@ -1,4 +1,7 @@
 .nfs*
+*.jugdata/
+/.tmp/
+/logs/
 /extract/
 *.jugdata/
 /*.err
